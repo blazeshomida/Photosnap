@@ -30,6 +30,7 @@ const Section = ({
 					src={imagePath}
 					width={imageWidth}
 					height={imageHeight}
+					alt={description}
 				/>
 			</div>
 			<div className={contentClass}>

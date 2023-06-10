@@ -35,8 +35,8 @@ const Features = () => {
 
   ))}
   <section className={Styles["section-features"]}>
-				{features.map((feature) => (
-					<Feature title={feature.title} description={feature.description} path={feature.path} />
+				{features.map((feature, index) => (
+					<Feature key={index} title={feature.title} description={feature.description} path={feature.path} />
 				))}
 
 			</section>

@@ -65,9 +65,9 @@ export default function Home() {
 			</section>
 
 			<section className={Styles["section-features"]}>
-				{features.map((feature) => (
+				{features.map((feature, index) => (
 					feature.role.includes("home") &&
-					<Feature title={feature.title} description={feature.description} path={feature.path} />
+					<Feature key={index} title={feature.title} description={feature.description} path={feature.path} />
 				))}
 
 			</section>

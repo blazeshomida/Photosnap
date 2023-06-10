@@ -50,8 +50,9 @@ const Pricing = () => {
           </div>
 
 			<section className={Styles['pricing-table']}>
-				{plans.map((plan) => (
+				{plans.map((plan, index) => (
 					<PricingCard
+					key={index}
 						plan={plan.plan}
 						description={plan.description}
 						monthly={plan.monthly}
