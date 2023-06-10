@@ -1,0 +1,87 @@
+@use "variables" as *;
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background-color: $clr-white;
+	color: $clr-black;
+	font-size: $fs-body;
+	font-family: $ff-primary;
+	font-weight: $fw-regular;
+	line-height: 1.67;
+	-webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+	isolation: isolate;
+}
+
+a,
+button,
+input {
+	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
+
+	
+}
+
+input:focus-visible::before {
+	outline: 4px solid #bc7198;
+	outline-offset: 4px;
+}
+
+a {
+	&:focus-visible {
+		outline-offset: 4px;
+		outline: #bc7198 solid 4px;
+	}
+}
+
+button {
+	&:focus-visible {
+		outline-offset: 4px;
+		outline: #bc7198 solid 4px;
+	}
+}

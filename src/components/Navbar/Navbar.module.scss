@@ -1,0 +1,77 @@
+@use "@/styles/_variables.scss" as *;
+@use "@/styles/_typography.scss" as *;
+@use "@/styles/_keyframes.scss" as *;
+
+$nav-gap: 1rem;
+
+.primary-navbar {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 2rem 1.5rem;
+	align-items: center;
+
+	@media (min-width: $breakpoint-tablet) {
+		padding: 1rem 1.5rem;
+	}
+}
+
+.nav-wrapper {
+	flex-basis: 100%;
+	flex-grow: 1;
+
+	display: none;
+	margin: auto;
+	place-items: center;
+
+	&.opening {
+		display: block;
+		overflow-y: hidden;
+		animation: mobileNav 500ms ease-in forwards;
+	}
+
+	&.open {
+		display: block;
+	}
+
+	&.closing {
+		display: block;
+		overflow-y: hidden;
+		animation: mobileNavClose 500ms ease-out forwards;
+	}
+
+	@media (min-width: $breakpoint-tablet) {
+		display: flex;
+		flex-basis: initial;
+		flex-grow: 0;
+		margin: 0;
+		height: auto;
+	}
+}
+
+.nav-list {
+	list-style: none;
+	display: grid;
+	place-items: center;
+	margin-block: $nav-gap;
+	gap: $nav-gap;
+
+	@media (min-width: $breakpoint-tablet) {
+		position: absolute;
+		display: flex;
+		inset-inline: 0;
+		place-content: center;
+		place-items: center;
+		margin-block: 0;
+	}
+}
+
+.nav-link {
+	@extend .nav-text;
+	
+
+	@media (min-width: $breakpoint-tablet) {
+		padding: $nav-gap;
+	}
+}
+

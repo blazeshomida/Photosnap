@@ -1,0 +1,108 @@
+@use "@/styles/_variables.scss" as *;
+@use "@/styles/_typography.scss" as *;
+@use "@/styles/_layouts.scss" as *;
+
+.footer {
+	background: $clr-black;
+	color: $clr-white;
+}
+
+.footer-container {
+	@extend .container;
+	display: grid;
+	place-content: center;
+	text-align: center;
+	padding: 3.5rem 2rem;
+	gap: 3rem;
+	
+	@media (min-width: $breakpoint-tablet) {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+.footer-main {
+	display: grid;
+	gap: 1rem;
+	place-items: center;
+    width: 100%;
+
+	@media (min-width: $breakpoint-tablet) {
+        gap: 2rem;
+        place-items: start;
+        place-content: space-between;
+	}
+    @media (min-width: $breakpoint-desktop) {
+        grid-template-columns: 1fr 1fr;
+
+	}
+}
+
+.nav-list {
+	list-style: none;
+	display: grid;
+	gap: 1rem;
+    order: 3;
+
+	@media (min-width: $breakpoint-tablet) {
+        grid-auto-flow: column;
+        gap: 1rem;
+        place-self: start;
+        order: 2;
+	}
+    @media (min-width: $breakpoint-desktop) {
+       grid-auto-flow: row;
+	   grid-row: 1 / 3;
+	   grid-column: 2/3;
+	}
+}
+
+.link-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	transition: all 250ms ease-in-out;
+
+	
+}
+
+.social-wrapper {
+    display: flex;
+    order: 2;
+    gap: 1rem;
+	align-self: flex-end;
+}
+
+.footer-extra {
+	display: grid;
+    place-items: center;
+    gap: 1rem;
+	height: 100%;
+    
+	@media (min-width: $breakpoint-tablet) {
+		align-content: space-between;
+		justify-items: end;
+		place-self: end;
+        width: 100%;
+	}
+
+	a:hover {
+		text-decoration: underline
+	}
+}
+
+.nav-link {
+	@extend .nav-text;
+
+    @media (min-width: $breakpoint-tablet) {
+        text-align: left;
+    }
+
+	&:hover {
+		text-decoration: none;
+		opacity: .3;
+	}
+}
+
+.copyright {
+	opacity: 50%;
+}

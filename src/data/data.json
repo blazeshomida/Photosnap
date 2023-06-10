@@ -1,0 +1,323 @@
+{
+	"sections": [
+		{
+			"title": "Create and share your photo stories.",
+			"description": "Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.",
+			"path": "/assets/home/desktop/create-and-share.jpg",
+			"width": 830,
+			"height": 650,
+			"role": ["home", "hero"]
+		},
+		{
+			"title": "Beutiful stories every time",
+			"description": "We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.",
+			"path": "/assets/home/desktop/beautiful-stories.jpg",
+			"width": 830,
+			"height": 600,
+			"role": ["home", "section"]
+		},
+		{
+			"title": "Designed for everyone",
+			"description": "Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it.",
+			"path": "/assets/home/desktop/designed-for-everyone.jpg",
+			"width": 830,
+			"height": 600,
+			"role": ["home", "section"]
+		},
+		{
+			"title": "Features",
+			"description": "We make sure all of our features are designed to be loved by every aspiring and even professional photograpers who wanted to share their stories.",
+			"path": "/assets/features/desktop/hero.jpg",
+			"width": 830,
+			"height": 490,
+			"role": ["features", "hero"]
+		},
+		{
+			"title": "PRICING",
+			"description": "Create a your stories, Photosnap is a platform for photographers and visual storytellers. It’s the simple way to create and share your photos.",
+			"path": "/assets/pricing/desktop/hero.jpg",
+			"width": 830,
+			"height": 490,
+			"role": ["pricing", "hero"]
+		}
+	],
+	"stories": [
+		{
+			"date": "April 11th 2020",
+			"title": "18 Days Voyage",
+			"author": "Alexei Borodin",
+			"path": "/assets/stories/desktop/18-days-voyage.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery", "home"]
+		},
+
+		{
+			"date": "April 9th 2020",
+			"title": "Architecturals",
+			"author": "Samantha Brooke",
+			"path": "/assets/stories/desktop/architecturals.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery", "home"]
+		},
+
+		{
+			"date": "March 11th 2020",
+			"title": "Behind the Waves",
+			"author": "Lamarr Wilson",
+			"path": "/assets/stories/desktop/behind-the-waves.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery"]
+		},
+
+		{
+			"date": "March 9th 2020",
+			"title": "Calm Waters",
+			"author": "Samantha Brooke",
+			"path": "/assets/stories/desktop/calm-waters.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery"]
+		},
+
+		{
+			"date": "April 14th 2020",
+			"title": "Sunset Cityscapes",
+			"author": "Benjamin Cruz",
+			"path": "/assets/stories/desktop/cityscapes.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery", "home"]
+		},
+
+		{
+			"date": "March 4th 2020",
+			"title": "Night at The Dark Forest",
+			"author": "Mohammed Abdul",
+			"path": "/assets/stories/desktop/dark-forest.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery"]
+		},
+
+		{
+			"date": "March 29th 2020",
+			"title": "King on Africa: Part II",
+			"author": "Tim Hillenburg",
+			"path": "/assets/stories/desktop/king-on-africa.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery"]
+		},
+
+		{
+			"date": "February 25th 2020",
+			"title": "Land of Dreams",
+			"author": "William Malcolm",
+			"path": "/assets/stories/desktop/land-of-dreams.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery"]
+		},
+
+		{
+			"date": "March 5th 2020",
+			"title": "The Milky Way",
+			"author": "Benjamin Cruz",
+			"path": "/assets/stories/desktop/milky-way.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery"]
+		},
+
+		{
+			"date": "March 2nd 2020",
+			"title": "Hazy Full Moon of Appalachia",
+			"author": "John Appleseed",
+			"path": "/assets/stories/desktop/moon-of-appalacia.jpg",
+			"width": 1440,
+			"height": 650,
+			"role": ["gallery", "gallery-hero"]
+		},
+
+		{
+			"date": "April 16th 2020",
+			"title": "The Mountains",
+			"author": "John Appleseed",
+			"path": "/assets/stories/desktop/mountains.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery", "home"]
+		},
+
+		{
+			"date": "March 19th 2020",
+			"title": "Rage of The Sea",
+			"author": "Mohammed Abdul",
+			"path": "/assets/stories/desktop/rage-of-the-sea.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery"]
+		},
+
+		{
+			"date": "March 16th 2020",
+			"title": "Running Free",
+			"author": "Michelle",
+			"path": "/assets/stories/desktop/running-free.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery"]
+		},
+
+		{
+			"date": "March 1st 2020",
+			"title": "Somwarpet’s Beauty",
+			"author": "Michelle",
+			"path": "/assets/stories/desktop/somwarpet.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery"]
+		},
+
+		{
+			"date": "April 7th 2020",
+			"title": "World Tour 2019",
+			"author": "Timothy Wagner",
+			"path": "/assets/stories/desktop/world-tour.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery"]
+		},
+
+		{
+			"date": "March 21st 2020",
+			"title": "The Trip to Nowhere",
+			"author": "Felicia Rourke",
+			"path": "/assets/stories/desktop/trip-to-nowhere.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery"]
+		},
+
+		{
+			"date": "April 3rd 2020",
+			"title": "Unforeseen Corners",
+			"author": "William Malcolm",
+			"path": "/assets/stories/desktop/unforeseen-corners.jpg",
+			"width": 360,
+			"height": 500,
+			"role": ["gallery"]
+		}
+	],
+	"features": [
+		{
+			"title": "100% Responsive",
+			"description": "No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.",
+			"path": "/assets/features/desktop/responsive.svg",
+			"role": ["features", "home"]
+		},
+		{
+			"title": "No Photo Upload Limit",
+			"description": "Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.",
+			"path": "/assets/features/desktop/no-limit.svg",
+			"role": ["features", "home"]
+		},
+		{
+			"title": "Available to Embed",
+			"description": "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. ",
+			"path": "/assets/features/desktop/embed.svg",
+			"role": ["features", "home"]
+		},
+		{
+			"title": "Custom Domain",
+			"description": "With Photosnap subscriptions you can host your stories on your own domain. You can also remove our branding!",
+			"path": "/assets/features/desktop/custom-domain.svg",
+			"role": ["features"]
+		},
+		{
+			"title": "Boost Your Exposure",
+			"description": "Users that viewed your story or gallery can easily get notifed of new and featured stories with our built in mailing list.",
+			"path": "/assets/features/desktop/boost-exposure.svg",
+			"role": ["features"]
+		},
+		{
+			"title": "Drag & Drop Image",
+			"description": "Easily drag and drop your image and get beautiful shots everytime. No over the top tooling to add friction to creating stories.",
+			"path": "/assets/features/desktop/drag-drop.svg",
+			"role": ["features"]
+		}
+	],
+	"pricing": [
+		{
+			"plan": "Basic",
+			"description": "Includes basic usage of our platform. Recommended for new and aspiring photographers.",
+			"monthly": "19.00",
+			"yearly": "190.00"
+		},
+		{
+			"plan": "Pro",
+			"description": "More advanced features available. Recommended for photography veterans and professionals.",
+			"monthly": "39.00",
+			"yearly": "390.00"
+		},
+		{
+			"plan": "Business",
+			"description": "Additional features available such as more detailed metrics. Recommended for business owners.",
+			"monthly": "99.00",
+			"yearly": "990.00"
+		}
+	],
+	"comparison": [
+		{
+			"feature": "UNLIMITED STORY POSTING",
+			"basic": true,
+			"pro": true,
+			"business": true
+		},
+		{
+			"feature": "UNLIMITED PHOTO UPLOAD",
+			"basic": true,
+			"pro": true,
+			"business": true
+		},
+		{
+			"feature": "EMBEDDING CUSTOM CONTENT",
+			"basic": false,
+			"pro": true,
+			"business": true
+		},
+		{
+			"feature": "CUSTOMIZE METADATA",
+			"basic": false,
+			"pro": true,
+			"business": true
+		},
+		{
+			"feature": "ADVANCED METRICS",
+			"basic": false,
+			"pro": false,
+			"business": true
+		},
+		{
+			"feature": "PHOTO DOWNLOADS",
+			"basic": false,
+			"pro": false,
+			"business": true
+		},
+		{
+			"feature": "SEARCH ENGINE INDEXING",
+			"basic": false,
+			"pro": false,
+			"business": true
+		},
+		{
+			"feature": "CUSTOM ANALYTICS",
+			"basic": false,
+			"pro": false,
+			"business": true
+		}
+	]
+}

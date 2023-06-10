@@ -1,0 +1,11 @@
+@use '@/styles/_variables.scss' as *;
+
+.logo {
+	z-index: 20;
+
+	
+}
+
+.logo-solid {
+	fill: $clr-logo;
+}

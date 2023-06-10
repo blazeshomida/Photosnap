@@ -1,0 +1,77 @@
+@use "@/styles/_variables.scss" as *;
+
+.section {
+	display: grid;
+	grid-auto-flow: row;
+
+	@media (min-width: $breakpoint-tablet) {
+		grid-auto-flow: column;
+	}
+
+	a {
+		color: inherit;
+		text-decoration-line: none;
+	}
+}
+
+.image-right {
+	@media (min-width: $breakpoint-tablet) {
+		.image-wrapper {
+			order: 2;
+		}
+		.section {
+			grid-template-columns: 25% auto;
+		}
+	}
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	padding: 7.5rem 2rem;
+	background-color: $clr-white;
+	color: $clr-black;
+	gap: 1rem;
+
+	
+
+	@media (min-width: $breakpoint-tablet) {
+		padding: 8.5rem 3.375rem;
+	}
+}
+
+.inverse {
+	background-color: $clr-black;
+	color: $clr-white;
+}
+
+.image {
+	object-fit: cover;
+}
+
+.hero {
+    position: relative;
+	&::after {
+		content: "";
+		height: 50%;
+		width: .25rem;
+		background: $clr-gradient-primary;
+		position: absolute;
+		left: 0;
+	}
+}
+
+.link-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	transition: all 250ms ease-in-out;
+
+	*:hover {
+		text-decoration: underline
+	}
+}
+

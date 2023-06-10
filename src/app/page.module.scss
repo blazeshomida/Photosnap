@@ -1,0 +1,27 @@
+@use "@/styles/_variables.scss" as *;
+
+.stories-section {
+	display: grid;
+
+	@media (min-width: $breakpoint-tablet) {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	@media (min-width: $breakpoint-desktop) {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+.section-features {
+	display: grid;
+	padding: 5rem 2rem;
+	gap: 3.5rem;
+    margin-inline: auto;
+
+    max-width: 28rem;
+
+    @media (min-width: $breakpoint-desktop) {
+        max-width: 75rem;
+		grid-template-columns: repeat(3, 1fr);
+	}
+}

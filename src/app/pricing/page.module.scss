@@ -1,0 +1,74 @@
+@use "@/styles/_variables.scss" as *;
+@use "@/styles/_typography.scss" as *;
+
+.pricing-table {
+	display: grid;
+	justify-content: center;
+	padding: 4rem 1.75rem;
+	gap: 1.5rem;
+
+	@media (min-width: $breakpoint-desktop) {
+		grid-auto-flow: column;
+	}
+}
+
+.toggle {
+	position: relative;
+	width: 4rem;
+}
+
+.toggle::before {
+	position: absolute;
+	content: "";
+	width: 4rem;
+	height: 2rem;
+	background-color: $clr-gray-light;
+	border-radius: 100vw;
+	transition: background-color 300ms ease-in-out;
+}
+
+.toggle:checked::before {
+	background-color: $clr-black;
+}
+
+.toggle::after {
+	position: absolute;
+	content: "";
+	left: 0;
+
+	width: 2rem;
+	height: 2rem;
+	scale: 0.8;
+	background-color: $clr-black;
+	border-radius: 100vw;
+	transition: all 300ms ease-in-out;
+}
+
+.toggle:checked::after {
+	left: 2rem;
+
+	background-color: $clr-white;
+}
+
+
+
+.toggle:focus-visible {
+    outline: none;
+}
+
+.toggle-label-wrapper {
+	display: flex;
+	padding: 2rem 4rem;
+	place-content: center;
+
+	gap: 2rem;
+}
+
+.toggle-label {
+	@extend .heading-3;
+	opacity: 0.5;
+	transition: all 250ms ease-in-out;
+}
+.active {
+	opacity: 1;
+}

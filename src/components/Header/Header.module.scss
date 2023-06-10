@@ -1,0 +1,8 @@
+@use '@/styles/_variables.scss' as *;
+
+.primary-header {
+    position: sticky;
+	top: 0;
+    background-color: $clr-white;
+    z-index: 9999;
+}

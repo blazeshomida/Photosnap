@@ -1,0 +1,82 @@
+@use "@/styles/_variables.scss" as *;
+@use "@/styles/_layouts.scss" as *;
+@use "@/styles/_typography.scss" as *;
+
+.pricing-table {
+	@extend .container;
+	@extend .heading-4;
+	width: 100%;
+	max-width: 45rem;
+	margin: auto;
+
+	th:first-of-type {
+		text-align: left;
+	}
+
+	th {
+		text-align: center;
+		padding: 1rem;
+		border-bottom: 2px solid $clr-black;
+		text-transform: uppercase;
+	}
+	td:first-of-type {
+		text-align: left;
+	}
+	td {
+		text-align: center;
+		padding: 1rem;
+		border-bottom: 1px solid $clr-gray-light;
+        
+	}
+
+    td > * {
+        margin-inline: auto;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+	.pricing-table {
+		width: 100%;
+		display: grid;
+	}
+
+	.pricing-table thead th:not(:first-child) {
+		display: none;
+	}
+
+	.pricing-table thead tr {
+		display: inline-block;
+		width: 100%;
+		th {
+			display: inline-block;
+			width: 100%;
+		}
+	}
+
+	.pricing-table tbody tr {
+		display: grid;
+	}
+
+	.pricing-table td:first-of-type {
+		grid-column: span 3;
+		border-bottom: 0;
+	}
+
+	.pricing-table tbody tr td:not(:first-child):before {
+		content: attr(data-label);
+		position: absolute;
+		top: 0;
+		inset-inline: 0;
+        opacity: .5;
+        font-size: 10px;
+	}
+
+	.pricing-table tbody tr td:not(:first-child) {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		padding: 1.5rem;
+	}
+}

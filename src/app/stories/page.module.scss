@@ -1,0 +1,64 @@
+@use "@/styles/_variables.scss" as *;
+@use "@/styles/_typography.scss" as *;
+
+.stories-hero {
+	display: grid;
+	grid-template-areas:
+		"image"
+		"content";
+
+	align-items: center;
+	color: $clr-white;
+
+	@media (min-width: $breakpoint-tablet) {
+		grid-template-areas: "content";
+		.hero-image,
+		.hero-content {
+			grid-area: content;
+		}
+
+        .hero-content {
+            background: transparent;
+            max-width: 35rem;
+        }
+	}
+}
+
+.stories-section {
+	display: grid;
+
+	@media (min-width: $breakpoint-tablet) {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	@media (min-width: $breakpoint-desktop) {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+.hero-image {
+	width: 100%;
+	grid-area: image;
+	object-fit: cover;
+}
+
+.hero-content {
+	grid-area: content;
+	display: grid;
+	gap: 0.25rem;
+	background: black;
+	padding: 7rem 1.5rem;
+}
+
+.hero-title {
+	@extend .heading-1;
+}
+.hero-subheading {
+	@extend .heading-4;
+}
+
+.link-wrapper {
+	display: flex;
+	gap: 1rem;
+	margin-top: 1rem;
+}

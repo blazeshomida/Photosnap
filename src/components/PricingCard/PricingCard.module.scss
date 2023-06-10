@@ -1,0 +1,61 @@
+@use "@/styles/_variables.scss" as *;
+@use "@/styles/_typography.scss" as *;
+
+.card {
+	display: grid;
+	padding: 2rem 1rem;
+	text-align: center;
+	background-color: $clr-offwhite;
+	gap: 2.5rem;
+
+	@media (min-width: $breakpoint-tablet) {
+		grid-template-columns: 1fr 1fr;
+	}
+
+    @media (min-width: $breakpoint-desktop) {
+		grid-template-columns: 1fr;
+	}
+}
+
+.inverse {
+	background-color: $clr-black;
+	color: $clr-white;
+}
+
+.inverse {
+	position: relative;
+	&::after {
+		content: "";
+		height: 4px;
+		width: 100%;
+		background: $clr-gradient-primary;
+		position: absolute;
+		top: 0;
+		inset-inline: 0;
+		transform-origin: top;
+		transition: all 500ms ease-in-out;
+	}
+}
+
+.plan {
+	@extend .heading-2;
+
+	text-transform: capitalize;
+}
+
+.price {
+	@extend .heading-1;
+}
+@media (min-width: $breakpoint-tablet) {
+	.price,
+	.price-tag {
+		text-align: right;
+	}
+}
+
+@media (min-width: $breakpoint-desktop) {
+    .price,
+	.price-tag {
+		text-align: center;
+	}
+}

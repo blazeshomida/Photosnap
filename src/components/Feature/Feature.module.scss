@@ -1,0 +1,15 @@
+.features-card {
+    display: grid;
+    gap: 3rem;
+    text-align: center;
+    place-items: center;
+}
+
+.card-icon {
+    object-fit: contain;
+}
+
+.card-details {
+    display: grid;
+    gap: 1rem;
+}

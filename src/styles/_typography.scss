@@ -1,0 +1,40 @@
+@use 'variables' as *;
+
+.heading-1 {
+	font-size: $fs-h1;
+	font-weight: $fw-bold;
+	line-height: clamp(40px, 11vw, 48px);
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+.heading-2 {
+	font-size: $fs-h2;
+	font-weight: $fw-bold;
+	text-transform: uppercase;
+}
+
+.heading-3 {
+	font-size: $fs-h3;
+	font-weight: $fw-bold;
+}
+
+.heading-4 {
+	font-size: $fs-h4;
+	font-weight: $fw-bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.nav-text {
+	@extend .heading-4;
+	transition: all 250ms ease-in-out;
+
+	&:hover {
+		text-decoration: underline
+	}
+}
+
+.button-text {
+	@extend .heading-4;
+}

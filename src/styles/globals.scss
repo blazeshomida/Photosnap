@@ -1,0 +1,10 @@
+@use 'variables';
+@use 'base';
+@use 'typography';
+@use 'keyframes';
+@use 'utils';
+@use 'layouts';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

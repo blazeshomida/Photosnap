@@ -1,0 +1,52 @@
+// COLORS
+$clr-gradient-primary: linear-gradient(
+	26.57deg,
+	#ffc593 0.42%,
+	#bc7198 43.46%,
+	#5a77ff 83.33%
+);
+$clr-black: hsl(0, 0%, 0%);
+$clr-gray-light: hsl(0, 0%, 87%);
+$clr-offwhite: hsl(0, 0%, 96%);
+$clr-white: hsl(0, 0, 100%);
+
+$clr-logo: var($clr-black);
+$clr-facebook: linear-gradient(225deg, #63afdb 0%, #6028f1 100%);
+$clr-youtube: linear-gradient(45deg, #d3205a 0%, #ff5a5a 100%);
+$clr-twitter: linear-gradient(225deg, #65ffeb 0%, #27718a 100%);
+$clr-pinterest: linear-gradient(225deg, #f6c683 0%, #de3838 100%);
+$clr-instagram: linear-gradient(
+	26.57deg,
+	#ffc593 0%,
+	#bc7198 43.29%,
+	#5a77ff 83.33%
+);
+
+
+
+// TYPOGRAPHY
+$ff-primary: var(--ff-primary);
+
+$fw-regular: 400;
+$fw-bold: 700;
+
+$fs-h1: clamp(32px, calc((36 / 393) * 100vw), 40px);
+$fs-h2: 1.5rem;
+$fs-h3: 1.125rem;
+$fs-h4: 0.75rem;
+$fs-body: 0.9375rem;
+
+// BREAKPOINTS
+$breakpoint-mobile: 375px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1200px;
+
+// ANIMATIONS
+$animation-name: fade;
+$animation-duration: 250ms;
+$animation-timing-function: ease-in-out;
+$animation-delay: 0s;
+$animation-iteration-count: 1;
+$animation-direction: normal;
+$animation-fill-mode: none;
+$animation-play-state: running;

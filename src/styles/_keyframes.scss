@@ -1,0 +1,53 @@
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes slideX {
+	0% {
+		left: 0;
+	}
+	100% {
+		left: 100vw;
+	}
+}
+
+@keyframes slideY {
+	0% {
+		top: 0;
+	}
+	100% {
+		top: 100vh;
+	}
+}
+
+@keyframes mobileNav {
+	0% {
+		max-height: 0px;
+		opacity: 0;
+
+	}
+	100% {
+		max-height: 500px;
+		opacity: 100%;
+
+	}
+}
+@keyframes mobileNavClose {
+	0% {
+		max-height: 500px;
+		opacity: 100%;
+
+	}
+	
+	100% {
+		opacity: 0;
+		max-height: 0px;
+
+
+	}
+}

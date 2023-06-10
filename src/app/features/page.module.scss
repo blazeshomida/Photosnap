@@ -1,0 +1,18 @@
+@use '@/styles/_variables.scss' as *;
+@use '@/styles/_layouts.scss' as *;
+
+.section-features {
+    @extend .container;
+    display: grid;
+    padding:  4rem 2rem;
+    gap: 3.5rem;
+
+    @media (min-width: $breakpoint-tablet) {
+        
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: $breakpoint-desktop) {
+        
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
