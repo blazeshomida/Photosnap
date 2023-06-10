@@ -5,14 +5,14 @@ The Photosnap Website project is a solution to a challenge provided by Frontend 
 ## Table of contents <!-- omit from toc -->
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+	- [The challenge](#the-challenge)
+	- [Screenshot](#screenshot)
+	- [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+	- [Built with](#built-with)
+	- [What I learned](#what-i-learned)
+	- [Continued development](#continued-development)
+	- [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -35,8 +35,8 @@ One of the notable accomplishments of the project was successfully implementing 
 
 ### Links
 
-- Solution URL: [View solution URL here](https://your-solution-url.com)
-- Live Site URL: [View live site URL here](https://your-live-site-url.com)
+- Solution URL: [View solution URL here](https://www.frontendmentor.io/solutions/react-photosnap-website-i-also-made-ajson-if-anyone-wants-it-chiQvIeNhj)
+- Live Site URL: [View live site URL here](https://photosnap-multipage-website-fem.vercel.app/)
 
 ## My process
 
