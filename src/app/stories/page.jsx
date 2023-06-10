@@ -21,7 +21,7 @@ const Stories = () => {
 									alt={story.title}
 								/>
 								<div className={Styles["hero-content"]}>
-									<p className={Styles["hero-subheading"]}>LAST MONTH'S FEATURED STORY</p>
+									<p className={Styles["hero-subheading"]}>LAST MONTH{"'"}S FEATURED STORY</p>
 									<h1 className={Styles["hero-title"]}>{story.title}</h1>
 									<div>
 										<span>{story.date}</span>
