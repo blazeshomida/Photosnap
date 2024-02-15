@@ -1,4 +1,4 @@
-# Photosnap Website <!-- omit from toc -->
+# Photosnap <!-- omit from toc -->
 
 The Photosnap Website project is a solution to a challenge provided by Frontend Mentor, which aimed to improve coding skills by building a realistic project. This project was a valuable experience in trying new things, strengthening existing skills, and discovering new technologies. A significant part of the project involved thinking in terms of React components, as most parts of the site were built as reusable components. The challenge also emphasized proper data management, prompting the creation of a JSON file to dynamically feed data into the components instead of hardcoding it.
 
